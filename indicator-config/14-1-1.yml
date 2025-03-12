@@ -1,52 +1,50 @@
-﻿SDG_INDICATOR__GLOBAL: >-
-  <p>Indicator 14.1.1: (a) Index of coastal eutrophication; and (b) plastic
-  debris density</p>
-SDG_TARGET__GLOBAL: >-
-  <p>Target 14.1: By 2025, prevent and significantly reduce marine pollution of
-  all kinds, in particular from land-based activities, including marine debris
-  and nutrient pollution</p>
-META_LAST_UPDATE__GLOBAL: '2024-07-29'
-SDG_CUSTODIAN_AGENCIES__GLOBAL: <p>United Nations Environment Programme (UNEP)</p>
-SDG_RELATED_INDICATORS__GLOBAL: '<p>11.6.1, 12.4.2, 12.5.1</p>'
-SDG_INDICATOR_INFO: 114-1-1
-SDG_GOAL: '14'
-SDG_TARGET: ''
-SDG_INDICATOR: ''
-SDG_SERIES_DESCR: ''
-META_LAST_UPDATE: ''
-SDG_RELATED_INDICATORS: ''
-CONTACT: ''
-CONTACT_ORGANISATION: NBS
-CONTACT_NAME: ''
-ORGANISATION_UNIT: ''
-CONTACT_FUNCT: ''
-CONTACT_PHONE: ''
-CONTACT_MAIL: ''
-CONTACT_EMAIL: ''
-IND_DEF_CON_CLASS: ''
-STAT_CONC_DEF: ''
-UNIT_MEASURE: Tons
-CLASS_SYSTEM: ''
-SRC_TYPE_COLL_METHOD: ''
-SOURCE_TYPE: NBS
-COLL_METHOD: ''
-FREQ_COLL: ''
-REL_CAL_POLICY: ''
-DATA_SOURCE: ''
-COMPILING_ORG: ''
-INST_MANDATE: ''
-OTHER_METHOD: ''
-RATIONALE: ''
-REC_USE_LIM: ''
-DATA_COMP: ''
-DATA_VALIDATION: ''
-DOC_METHOD: ''
-QUALITY_MGMNT: ''
-QUALITY_ASSURE: ''
-QUALITY_ASSMNT: ''
-COVERAGE: ''
-COMPARABILITY: ''
-OTHER_DOC: ''
-national_data_updated_date: ''
-national_metadata_updated_date: ''
-un_designated_tier: ''
+composite_breakdown_label: ''
+computation_units: ''
+copyright: ''
+data_footnote: ''
+data_non_statistical: false
+data_notice_class: ''
+data_notice_heading: ''
+data_notice_text: ''
+data_show_map: false
+data_start_values: []
+embedded_feature_footer: ''
+embedded_feature_html: ''
+embedded_feature_tab_title: ''
+embedded_feature_title: ''
+embedded_feature_url: ''
+expected_disaggregations: []
+footer_fields: []
+graph_annotations: []
+graph_limits: []
+graph_series_breaks: []
+graph_stacked_disaggregation: ''
+graph_target_lines: []
+graph_title: global_indicators.14-1-1-title
+graph_titles: []
+graph_type: line
+indicator_available: ''
+indicator_name: global_indicators.14-1-1-title
+indicator_number: 14.1.1
+indicator_tabs:
+  override: false
+  tab_1: ''
+  tab_2: ''
+  tab_3: ''
+  tab_4: ''
+national_geographical_coverage: ''
+page_content: ''
+permalink: ''
+placeholder: ''
+precision: []
+progress_status: not_available
+proxy: ''
+proxy_series: []
+publications: []
+related_indicators: []
+reporting_status: complete
+sort: ''
+sources: []
+standalone: false
+tags: []
+x_axis_label: ''
