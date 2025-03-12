@@ -12,7 +12,53 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(a) Index of coastal eutrophication; and (b) plastic debris density",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Mismanaged waste Index (MWI)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "High",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Plastic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Waste",
+                "Mismanagement",
+                "Consumption",
+                "Exported",
+                "Imported",
+                "released into water",
+                "Chemical Additives",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tons",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

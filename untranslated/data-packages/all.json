@@ -3,6 +3,74 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "14-1-1/data.csv",
+      "name": "14-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(a) Index of coastal eutrophication; and (b) plastic debris density",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Mismanaged waste Index (MWI)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "High",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Plastic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Waste",
+                "Mismanagement",
+                "Consumption",
+                "Exported",
+                "Imported",
+                "released into water",
+                "Chemical Additives",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tons",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "(a) Index of coastal eutrophication; and (b) plastic debris density"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -3708,28 +3776,6 @@
         ]
       },
       "title": "Amount in United States dollars committed to public-private partnerships for infrastructure"
-    },
-    {
-      "path": "14-1-1/data.csv",
-      "name": "14-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "(a) Index of coastal eutrophication; and (b) plastic debris density"
     },
     {
       "path": "2-1-1/data.csv",
